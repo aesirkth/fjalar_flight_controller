@@ -11,7 +11,7 @@ Fjalar is a rooster in Jotunheim who heralds the advent of ragnarök, or in our 
 1. continuity detection
 
 ### schematic
-see [](design/euroc_controller.pdf)
+see [here](./design/euroc_controller.pdf)
 
 ### hardware
 hopefully soon :)
