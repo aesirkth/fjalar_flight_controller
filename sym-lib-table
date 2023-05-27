@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "stm32l5")(type "KiCad")(uri "${KIPRJMOD}/lib/2023-05-12_18-21-22.kicad_sym")(options "")(descr ""))
+  (lib (name "VNQ5050AKTR")(type "KiCad")(uri "${KIPRJMOD}/lib/VNQ5050AKTR-E.kicad_sym")(options "")(descr ""))
+  (lib (name "VNLD5090")(type "KiCad")(uri "${KIPRJMOD}/lib/VNLD5090TR-E.kicad_sym")(options "")(descr ""))
+  (lib (name "VN7050AS")(type "KiCad")(uri "${KIPRJMOD}/lib/2023-05-13_17-27-16.kicad_sym")(options "")(descr ""))
+)
