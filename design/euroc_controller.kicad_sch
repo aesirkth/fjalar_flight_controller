@@ -7415,7 +7415,7 @@
     (property "Value" "TPSM5601R5" (at 60.96 38.1 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_DFN_QFN:Texas_B3QFN-14-1EP_5x5.5mm_P0.65mm_ThermalVia" (at 60.96 33.02 0)
+    (property "Footprint" "Package_DFN_QFN:Texas_B3QFN-14-1EP_5x5.5mm_P0.65mm" (at 60.96 33.02 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpsm53602.pdf" (at 63.5 35.56 0)
