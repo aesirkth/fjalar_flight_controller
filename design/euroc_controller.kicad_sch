@@ -8552,7 +8552,7 @@
     (property "Value" "SMA" (at 74.93 251.7532 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_Coaxial:SMA_Molex_73251-1153_EdgeMount_Horizontal" (at 71.12 250.19 0)
+    (property "Footprint" "Connector_Coaxial:SMA_Amphenol_901-143_Horizontal" (at 71.12 250.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" " ~" (at 71.12 250.19 0)
