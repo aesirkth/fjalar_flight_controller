@@ -514,7 +514,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "euroc_controller.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
