@@ -1,0 +1,8 @@
+&lsm6dso32 {
+    gyro-odr = <4>; //104Hz
+    accel-odr = <4>; //104Hz
+    accel-range = <1>; //16g
+    gyro-range = <6>; //2000dps
+    accel-pm = <0>; //high performance
+    gyro-pm = <0>; //high performance
+};
