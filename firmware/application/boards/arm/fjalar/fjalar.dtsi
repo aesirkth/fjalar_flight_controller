@@ -22,6 +22,19 @@
             gpios = <&gpiob 2 GPIO_ACTIVE_HIGH>;
         };
     };
+
+	pyro_sense {
+		compatible = "gpio-keys";
+		pyro0_sense: pyro0_sense {
+			gpios = <&gpioa 8 GPIO_ACTIVE_LOW>;
+		};
+		pyro1_sense: pyro1_sense {
+			gpios = <&gpiob 15 GPIO_ACTIVE_LOW>;
+		};
+		pyro2_sense: pyro2_sense {
+			gpios = <&gpioa 2 GPIO_ACTIVE_LOW>;
+		};
+	};
 };
 
 &usbotg_fs {

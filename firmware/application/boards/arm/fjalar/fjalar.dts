@@ -22,21 +22,17 @@
 
     aliases {
 		led0 = &ioled;
-		io-led = &ioled;
-        external-i2c = &i2c2;
-        imu-i2c = &i2c1;
-        baro-i2c = &i2c1;
-        external-uart = &uart4;
-        flash-spi = &spi1;
+		external-uart = &uart4;
+		data-flash = &w25q128;
 		gps-uart = &usart1;
-		main-usb = &usbotg_fs;
+		buzzer = &pwm_buzzer;
 	};
 };
 
 &i2c1 {
 	lsm6dso32: lsm6dso32@6a {
 		status = "okay";
-		compatible = "st,lsm6dso";
+		compatible = "st,lsm6dso32", "st,lsm6dso";
 		reg = <0x6a>;
 	};
 
@@ -61,7 +57,7 @@
 		compatible ="jedec,spi-nor";
 		size = <0x8000000>;
 		reg = <1>;
-		spi-max-frequency = <5000000>;
+		spi-max-frequency = <10000000>;
 		status = "okay";
 		jedec-id = [ef 70 18];
 	};

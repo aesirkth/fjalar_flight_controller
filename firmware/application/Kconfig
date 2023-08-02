@@ -1,0 +1,7 @@
+menu "Zephyr"
+source "Kconfig.zephyr"
+endmenu
+
+config APP_LOG_LEVEL
+    int "Application log level"
+    depends on LOG

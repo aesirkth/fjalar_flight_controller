@@ -7,5 +7,7 @@ manifest:
       remote: zephyrproject-rtos
       revision: v3.4.0
       import: true
-  self:
-    path: application
+    - name: zscilib
+      path: modules/lib/zscilib
+      revision: 34c3432e81085bb717e4871d21ca419ae0058ec5
+      import: true
