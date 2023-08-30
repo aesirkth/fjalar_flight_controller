@@ -1,7 +1,0 @@
-
-description: |
-  A dummy barometer and IMU
-
-compatible: "aesir,dummysensor"
-
-include: base.yaml

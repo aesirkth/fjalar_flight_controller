@@ -1,1 +1,0 @@
-add_subdirectory_ifdef(CONFIG_MS5611 ms5611)

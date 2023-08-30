@@ -1,4 +1,0 @@
-config DUMMYSENSOR
-	bool "dummy sensor"
-	default y
-	depends on DT_HAS_AESIR_DUMMYSENSOR_ENABLED
